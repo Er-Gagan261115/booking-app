@@ -1,0 +1,194 @@
+body {
+    box-sizing: border-box;
+    min-height:fit-content;
+}
+
+/* style logo */
+.stylelogo{
+    width: 6em;
+    height: 6em;
+    float: left;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.nav_style {
+    height: 8vh;
+    min-width: 90em;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 30px;
+}
+.nav_style_signup_login{
+    height: 8vh;
+    min-width: 90em;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 30px;
+    background-color: rgb(146, 250, 250);
+    box-shadow: 5px 5px 10px rgba(202, 200, 200, 0.522);
+}
+.nav_style_signup_login li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.nav_style_signup_login li a{
+    color: rgb(14, 15, 15);
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 25px;
+}
+.right_align{
+    text-align: right;
+}
+.nav_style li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 13px;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+a:visited {
+    color: rgb(73, 190, 190);
+}
+
+.nav_style li a {
+    color: rgb(189, 245, 245);
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 25px;
+}
+ 
+/* home  */
+.landingbackground{
+    background: url("https://static.vecteezy.com/system/resources/previews/001/266/740/large_2x/two-people-working-on-laptops-in-an-office-free-photo.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    /* z-index: 1; */
+    margin-top: -170px;
+}
+.landingbackgrounddiv{
+    background-color: rgba(34, 33, 32, 0.545);
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+}
+.landingbackgrounddiv h2{
+    
+    color: rgb(69, 215, 248);
+    text-shadow: 2px 2px 5px rgba(86, 83, 83, 0.592);
+    padding-top: 50vh;
+    font-size: 80px;
+    font-weight: 600;
+}
+.home_form_body{
+    display: flex;
+    margin: 50px auto;
+    max-height: fit-content;
+}
+.home_form_body img{
+    width: 35em;
+    height:33em;
+    margin: auto;
+   
+}
+.home_form_body form{
+    /* height: 27em; */
+    width: 27rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.197), 0 6px 20px 0 rgba(0, 0, 0, 0.159);
+    background-color: rgb(234, 254, 251);
+    margin:  auto;
+   min-height: fit-content;
+}
+
+
+
+.home_form_details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px 15px;
+    position: relative;
+}
+
+.home_form_details input {
+    margin: 10px 5px 10px 5px;
+    padding: 17px;
+
+}
+
+.home_form_details button {
+    font-size: 16px;
+    width: 10em;
+    margin: 10px auto;
+    height: 3em;
+    background-color: rgba(153, 234, 237, 0.795);
+    color: rgb(38, 36, 36);
+    border: none;
+    box-shadow: 2px 2px 5px rgb(224, 223, 219);
+}
+
+button:hover {
+    cursor: pointer;
+}
+/* signup form body */
+.signup_form_body{
+    
+        height: 27em;
+        width: 27rem;
+        margin: 5rem auto;
+        box-shadow: 7px 7px 10px rgb(223, 223, 219);
+        background-color: rgb(234, 254, 251);
+    }
+
+/* login page */
+.login_form_body{
+    height: 20em;
+    width: 27rem;
+    margin: 5rem auto;
+    box-shadow: 7px 7px 10px rgb(223, 223, 219);
+    background-color: rgb(234, 254, 251);
+}
+
+
+/* mycareer details */
+.mycareer_details{
+    height: 24em;
+    float: left;
+    width: 24%;
+    margin: 4rem  4rem;
+    box-shadow: 0 6px 15px 0 rgba(50, 50, 49, 0.288);
+    background-color: rgb(234, 254, 251);
+    list-style: none;
+    box-sizing: border-box;
+    padding-left: 0px;
+    /* width: 33.33%; */
+}
+.mycareer_details li{
+    
+    margin: 10px auto;
+}
+.mycareer{
+    background: url("https://business.twitter.com/content/dam/business-twitter/help/header/adhc-header-desktop.png.twimg.1920.png");
+    height: 30vh;
+    width: 98.9vw;
+    /* background-position: center center; */
+     background-size: cover; 
+     margin-top: -120px;
+     /* padding-top: 20px; */
+}
+.mycareer h2{
+    padding-top: 130px;
+    margin: 10px  auto 40px auto;
+    color: rgb(218, 242, 6);
+    font-size: 40px;
+    text-shadow: 2px 2px 6px rgb(67, 66, 66);
+    
+}
